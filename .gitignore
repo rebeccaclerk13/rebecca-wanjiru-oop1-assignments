@@ -1,0 +1,12 @@
+# Never commit the credential screenshot or local assignment inputs.
+credentials.jpeg
+
+# Ignore locally generated compiler output.
+*.exe
+*.out
+*.obj
+*.o
+
+# Ignore temporary inspection files.
+tmp/
+.verification-toolchain/
