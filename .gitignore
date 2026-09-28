@@ -1,5 +1,7 @@
 # Never commit the credential screenshot or local assignment inputs.
 credentials.jpeg
+Weekly Assignments _OOP1.pdf
+WhatsApp Image *.jpeg
 
 # Ignore locally generated compiler output.
 *.exe
