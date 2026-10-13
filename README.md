@@ -1,7 +1,7 @@
 # Rebecca Wanjiru - OOP 1 Assignments
 
 This folder contains the completed programming assignments from the supplied
-OOP 1 weekly assignment PDF through Week 4, together with the three C
+OOP 1 weekly assignment PDF through Week 6, together with the three C
 function questions supplied as images.
 
 ## Student details
@@ -21,6 +21,8 @@ function questions supplied as images.
 | `week2` | Grading system; admission decision; simple calculator |
 | `week3` | Payroll functions; water billing functions |
 | `week4` | Employee bonus for loop; savings withdrawal while loop; password verification do-while loop |
+| `week5` | Hotel management system using 1D, 2D, and 3D arrays |
+| `week6` | Library book management; student fee management using classes and objects |
 | `image_assignments` | Discount calculator; electricity bill; employee salary |
 
 Each source file is a separate program and contains comments describing the
@@ -36,11 +38,12 @@ C++ file with C++17 and every C file with C11 using warnings enabled.
 
 ## Local verification
 
-All 13 programs were compiled locally on Windows with GCC 16.2.0 using
+All 16 programs were compiled locally on Windows with GCC 16.2.0 using
 `-Wall -Wextra -pedantic`, with no compiler warnings or errors. Each program
 was then run with representative input. Boundary and error checks also passed
 for the discount, electricity, and tax slabs, division by zero, underage
-admission, grade E, zero discount, and insufficient-balance cases.
+admission, grade E, zero discount, insufficient-balance, zero-copy borrowing,
+invalid fee payment, and deterministic array-count cases.
 
 ## Compiling and running
 

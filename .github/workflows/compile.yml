@@ -16,7 +16,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          for source_file in week1/*.cpp week2/*.cpp week3/*.cpp week4/*.cpp; do
+          for source_file in week1/*.cpp week2/*.cpp week3/*.cpp week4/*.cpp week5/*.cpp week6/*.cpp; do
             output_file="$(mktemp)"
             g++ -std=c++17 -Wall -Wextra -pedantic "$source_file" -o "$output_file"
             rm -f "$output_file"

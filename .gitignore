@@ -12,3 +12,5 @@ WhatsApp Image *.jpeg
 # Ignore temporary inspection files.
 tmp/
 .verification-toolchain/
+docs/superpowers/
+.superpowers/
